@@ -16,3 +16,10 @@ All the objects belonging to this class would posses the attributes. Hence these
 The attributes of an object are accesses using the dot(.) operator.
 
 The data needed by an object stays in the object. It cannot be accessed without the object. This is an Object Oriented principle called as ENCAPSULATION.
+
+Methods are functions written inside a class. Methods represent the behavior.
+
+Always remember that in a method since 'self' is not a keyword, no matter what variable is used, the first parameter is always considered as the implicit reference to the object used.
+
+We need not know how a method works internally to invoke it on an object. This is an object oriented principle called as ABSTRACTION.
+For example, we need not know that inside the eat_banana() method there is a check happening for monkey breed. We can invoke it on a baboon also and a chimpanzee also.
