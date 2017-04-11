@@ -23,3 +23,5 @@ Always remember that in a method since 'self' is not a keyword, no matter what v
 
 We need not know how a method works internally to invoke it on an object. This is an object oriented principle called as ABSTRACTION.
 For example, we need not know that inside the eat_banana() method there is a check happening for monkey breed. We can invoke it on a baboon also and a chimpanzee also.
+
+OOP is never short of magic! You can create attributes and methods in a common class and inherit them in other classes!
